@@ -1,0 +1,10 @@
+services:
+  gcc:
+    container_name: gccdev
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    stdin_open: true
+    volumes:
+      - ../:/usr/src/myapp
