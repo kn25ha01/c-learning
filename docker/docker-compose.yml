@@ -7,4 +7,4 @@ services:
     tty: true
     stdin_open: true
     volumes:
-      - ../:/usr/src/myapp
+      - ../:/usr/src/clang-learning

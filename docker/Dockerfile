@@ -10,4 +10,4 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-WORKDIR /usr/src/myapp
+WORKDIR /usr/src/clang-learning
