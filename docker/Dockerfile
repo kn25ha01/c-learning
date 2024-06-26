@@ -1,5 +1,5 @@
 # https://hub.docker.com/_/gcc
-FROM gcc:latest
+FROM gcc:14.1.0
 
 # timezone
 ENV TZ=Asia/Tokyo
