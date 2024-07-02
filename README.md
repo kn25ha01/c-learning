@@ -1,4 +1,4 @@
-# clang-learning
+# c-learning
 
 ## Versions
 
